@@ -1279,7 +1279,7 @@ function changeOrdLengthMore() {
 }
 
 function changeTheme() {
-  game.theme = (game.theme + 1) % 3;
+  game.theme = (game.theme + 1) % 2;
 }
 function changeOrdNotation() {
   game.buchholz = (game.buchholz + 1) % 3;
@@ -1862,9 +1862,6 @@ function csubTab(t) {
   singfunctions.forEach(func => func.update());
   drawStudyTree();
   }
-  //get("body").style["background-size"]="cover"
-  //Site: https://wallpaperplay.com/
-  //Terms: https://wallpaperplay.com/page-terms
 }
 
 function isubTab(t) {
