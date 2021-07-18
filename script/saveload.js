@@ -380,5 +380,5 @@ function inPublicTesting() {
 }
 
 function inPrivateTesting() {
-  return window.location.href.split(".")[1]=="glitch"&&window.location.href.split(".")[2].startsWith("me")
+  return false
 }
