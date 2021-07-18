@@ -5,7 +5,6 @@ changeOrdLengthLess
 changeOrdLengthMore
 changeOrdNotation
 changeTheme
-changeMusic
 changeColor
 changeHotKeys
 changeThicc
@@ -33,7 +32,6 @@ function updateOptions() {
     ["Light", "Dark", "Space (https://wallpaperplay.com/page-terms)"][
       game.theme
     ];
-  get("changeMusic").innerHTML = "Music: " + musicName[game.music];
   get("changeColor").textContent =
     "Colors: " + (game.colors === 1 ? "ON (high performance cost)" : (game.colors === 2 ? "Flashing" : "OFF"));
   get("changeHotKeys").textContent =
