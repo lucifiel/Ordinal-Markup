@@ -29,7 +29,7 @@ function factorShift() {
       game.ord = 0;
       game.over = 0;
       game.canInf = false;
-      game.OP = 0;
+      game.OP = 100;
       game.succAuto = 0;
       game.limAuto = 0;
       game.autoLoop = { succ: 0, lim: 0 };
