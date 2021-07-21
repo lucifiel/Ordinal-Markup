@@ -676,3 +676,7 @@ invisible {
   height:100px;
   font-size:18px;
 }
+
+#hardy {
+  overflow: hidden;
+}
